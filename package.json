@@ -1,0 +1,22 @@
+{
+  "name": "biz-rag-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "llamaindex": "^0.11.27",
+    "multer": "^2.0.2",
+    "openai": "^5.15.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
